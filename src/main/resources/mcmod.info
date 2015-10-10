@@ -1,0 +1,17 @@
+[{
+
+"modid": "ProteanMinerals",
+"name": "Protean Minerals",
+"description": "This mod adds an ore that can be turned into other useful things!",
+"mcversion": "1.7.10",
+"version": "1.0",
+"url": "",
+"updateUrl": "",
+"authorList": [ "Zanis" ],
+"credits": "",
+"logoFile": "",
+"screenshots": [],
+"parent":"",
+"dependencies": [ ]
+
+}]
