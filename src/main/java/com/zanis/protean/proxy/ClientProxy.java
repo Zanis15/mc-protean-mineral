@@ -1,5 +1,5 @@
 package com.zanis.protean.proxy;
 
-public class ClientProxy implements IProxy {
+public class ClientProxy extends CommonProxy{
 
 }

@@ -1,4 +1,4 @@
 package com.zanis.protean.proxy;
 
-public class ServerProxy implements IProxy{
+public class ServerProxy extends CommonProxy{
 }

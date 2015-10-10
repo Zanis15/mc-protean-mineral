@@ -1,6 +1,9 @@
 package com.zanis.protean.handler;
 
 
+import com.zanis.protean.reference.Reference;
+import cpw.mods.fml.client.event.ConfigChangedEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;
 
 import java.io.File;
@@ -8,27 +11,28 @@ import java.io.File;
 public class ConfigurationHandler {
 
     public static Configuration configuration;
+    public static boolean testValue = false;
 
-    public static void  init(File configFile){
-        configuration = new Configuration(configFile);
-        boolean configValue = false;
+    public static void init(File configFile){
+        if (configuration == null){
+            configuration = new Configuration(configFile);
+        }
+    }
+    @SubscribeEvent
+    public void onConfigurationChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event){
 
-        try{
-            // Load the configuration file
-            configuration.load();
+        if(event.modID.equalsIgnoreCase(Reference.MOD_ID));
+        {
+            loadConfiguration();
+        }
+    }
+    public void loadConfiguration(){
 
-            // Read in properties from configuration file
-            configValue = configuration.get(Configuration.CATEGORY_GENERAL, "configValue", true, "This is an example config value").getBoolean(true);
+        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration valie.");
+
+        if(configuration.hasChanged()){
+
+            configuration.save();
         }
-        catch (Exception e){
-            // Log the exception
-        }
-        finally{
-            // Save the configuration file
-            if (configuration.hasChanged()){
-                configuration.save();
-            }
-        }
-        System.out.println("Configuration Test: " + configValue);
     }
 }
