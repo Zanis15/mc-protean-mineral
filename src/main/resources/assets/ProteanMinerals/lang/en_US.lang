@@ -1,0 +1,6 @@
+item.proteanminerals:proteanIngot.name=Protean Ingot
+item.proteanminerals:proteanNugget.name=Protean Nugget
+
+tile.proteanminerals:oreProtean.name=Protean Ore
+tile.proteanminerals:proteanOreProcessor.name=Protean Ore Processor
+tile.proteanminerals:proteanBlock.name=Protean Block

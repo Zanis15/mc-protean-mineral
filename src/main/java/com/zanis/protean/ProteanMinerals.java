@@ -1,9 +1,12 @@
 package com.zanis.protean;
 
 import com.zanis.protean.handler.ConfigurationHandler;
+import com.zanis.protean.init.ModBlocks;
+import com.zanis.protean.init.ModItems;
 import com.zanis.protean.proxy.IProxy;
 import com.zanis.protean.reference.Reference;
 import com.zanis.protean.utility.LogHelper;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -21,6 +24,10 @@ public class ProteanMinerals {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        ModItems.init();
+        ModBlocks.init();
         LogHelper.info("Pre Initialization Complete! =D");
     }
 
