@@ -1,28 +1,27 @@
-[14:00:04] [main/INFO]: Setting user: Player20
-[14:00:06] [Client thread/INFO]: LWJGL Version: 2.9.1
-[14:00:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protean Minerals
-[14:00:13] [Sound Library Loader/INFO]: Sound engine started
-[14:00:16] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:00:16] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:00:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protean Minerals
-[14:00:16] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:00:17] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:00:17] [Sound Library Loader/INFO]: Sound engine started
-[14:00:32] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[14:00:32] [Server thread/INFO]: Generating keypair
-[14:00:33] [Server thread/INFO]: Preparing start region for level 0
-[14:00:34] [Server thread/INFO]: Changing view distance to 12, from 10
-[14:00:34] [Server thread/INFO]: Player20[local:E:716a4821] logged in with entity id 284 at (-1719.5, 4.0, -794.5)
-[14:00:34] [Server thread/INFO]: Player20 joined the game
-[14:00:52] [Server thread/INFO]: [Player20: Given [Protean Ore] * 1 to Player20]
-[14:00:52] [Client thread/INFO]: [CHAT] Given [Protean Ore] * 1 to Player20
-[14:00:59] [Server thread/INFO]: Player20 has just earned the achievement [Taking Inventory]
-[14:00:59] [Client thread/INFO]: [CHAT] Player20 has just earned the achievement [Taking Inventory]
-[14:02:55] [Client thread/INFO]: Stopping!
-[14:02:55] [Server thread/INFO]: Stopping server
-[14:02:55] [Server thread/INFO]: Saving players
-[14:02:55] [Server thread/INFO]: Saving worlds
-[14:02:55] [Server thread/INFO]: Saving chunks for level 'test world please ignore'/Overworld
-[14:02:55] [Server thread/INFO]: Saving chunks for level 'test world please ignore'/Nether
-[14:02:55] [Server thread/INFO]: Saving chunks for level 'test world please ignore'/The End
-[14:02:55] [Client Shutdown Thread/INFO]: Stopping server
+[16:35:24] [main/INFO]: Setting user: Player114
+[16:35:26] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:35:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protean Minerals
+[16:35:34] [Sound Library Loader/INFO]: Sound engine started
+[16:35:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:35:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:35:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protean Minerals
+[16:35:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:35:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:35:38] [Sound Library Loader/INFO]: Sound engine started
+[16:35:42] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[16:35:42] [Server thread/INFO]: Generating keypair
+[16:35:42] [Server thread/INFO]: Preparing start region for level 0
+[16:35:43] [Server thread/INFO]: Changing view distance to 12, from 10
+[16:35:43] [Server thread/INFO]: Player114[local:E:24095d16] logged in with entity id 279 at (-1721.1862228478685, 4.0, -791.4467825847426)
+[16:35:43] [Server thread/INFO]: Player114 joined the game
+[16:36:04] [Server thread/INFO]: Player114 has just earned the achievement [Taking Inventory]
+[16:36:04] [Client thread/INFO]: [CHAT] Player114 has just earned the achievement [Taking Inventory]
+[16:45:27] [Client thread/INFO]: Stopping!
+[16:45:27] [Server thread/INFO]: Stopping server
+[16:45:27] [Server thread/INFO]: Saving players
+[16:45:27] [Server thread/INFO]: Saving worlds
+[16:45:27] [Server thread/INFO]: Saving chunks for level 'test world please ignore'/Overworld
+[16:45:27] [Server thread/INFO]: Saving chunks for level 'test world please ignore'/Nether
+[16:45:27] [Server thread/INFO]: Saving chunks for level 'test world please ignore'/The End
+[16:45:27] [Client Shutdown Thread/INFO]: Stopping server
+[16:45:27] [Client Shutdown Thread/INFO]: Saving players

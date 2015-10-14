@@ -1,12 +1,13 @@
 package com.zanis.protean.item;
 
-
 import com.zanis.protean.creativeTab.creativeTabProtean;
 
-public class ItemProteanIngot extends ItemProtean{
-    public ItemProteanIngot(){
+public class ItemProteanCore extends ItemProtean {
+    public ItemProteanCore(){
         super();
-        this.setUnlocalizedName("proteanIngot");
+        this.setUnlocalizedName("proteanCore");
         this.setCreativeTab(creativeTabProtean.PROTEAN_TAB);
+
     }
+
 }
