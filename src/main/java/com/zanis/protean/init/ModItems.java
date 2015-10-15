@@ -3,7 +3,7 @@ package com.zanis.protean.init;
 import com.zanis.protean.item.*;
 import com.zanis.protean.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.block.material.Material;
+// import net.minecraft.block.material.Material;
 import net.minecraft.item.*;
 import net.minecraftforge.common.util.EnumHelper;
 
@@ -26,10 +26,13 @@ public class ModItems {
     public static void init(){
         GameRegistry.registerItem(proteanIngot, "proteanIngot");
         GameRegistry.registerItem(proteanNugget, "proteanNugget");
+        GameRegistry.registerItem(proteanCore, "proteanCore");
+
         GameRegistry.registerItem(proteanPickaxe, "proteanPickaxe");
         GameRegistry.registerItem(proteanAxe, "proteanAxe");
         GameRegistry.registerItem(proteanHoe, "proteanHoe");
         GameRegistry.registerItem(proteanShovel, "proteanShovel");
         GameRegistry.registerItem(proteanSword, "proteanSword");
+
     }
 }

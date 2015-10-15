@@ -1,27 +1,44 @@
-[16:35:24] [main/INFO]: Setting user: Player114
-[16:35:26] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:35:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protean Minerals
-[16:35:34] [Sound Library Loader/INFO]: Sound engine started
-[16:35:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:35:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:35:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protean Minerals
-[16:35:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:35:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:35:38] [Sound Library Loader/INFO]: Sound engine started
-[16:35:42] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:35:42] [Server thread/INFO]: Generating keypair
-[16:35:42] [Server thread/INFO]: Preparing start region for level 0
-[16:35:43] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:35:43] [Server thread/INFO]: Player114[local:E:24095d16] logged in with entity id 279 at (-1721.1862228478685, 4.0, -791.4467825847426)
-[16:35:43] [Server thread/INFO]: Player114 joined the game
-[16:36:04] [Server thread/INFO]: Player114 has just earned the achievement [Taking Inventory]
-[16:36:04] [Client thread/INFO]: [CHAT] Player114 has just earned the achievement [Taking Inventory]
-[16:45:27] [Client thread/INFO]: Stopping!
-[16:45:27] [Server thread/INFO]: Stopping server
-[16:45:27] [Server thread/INFO]: Saving players
-[16:45:27] [Server thread/INFO]: Saving worlds
-[16:45:27] [Server thread/INFO]: Saving chunks for level 'test world please ignore'/Overworld
-[16:45:27] [Server thread/INFO]: Saving chunks for level 'test world please ignore'/Nether
-[16:45:27] [Server thread/INFO]: Saving chunks for level 'test world please ignore'/The End
-[16:45:27] [Client Shutdown Thread/INFO]: Stopping server
-[16:45:27] [Client Shutdown Thread/INFO]: Saving players
+[01:16:32] [main/INFO]: Setting user: Player865
+[01:16:35] [Client thread/INFO]: LWJGL Version: 2.9.1
+[01:16:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protean Minerals
+[01:16:48] [Sound Library Loader/INFO]: Sound engine started
+[01:16:51] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[01:16:51] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[01:16:51] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protean Minerals
+[01:16:51] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[01:16:51] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[01:16:52] [Sound Library Loader/INFO]: Sound engine started
+[01:17:12] [Client thread/INFO]: Deleting level worldGenTest
+[01:17:12] [Client thread/INFO]: Attempt 1...
+[01:17:22] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[01:17:22] [Server thread/INFO]: Generating keypair
+[01:17:22] [Server thread/INFO]: Converting map!
+[01:17:22] [Server thread/INFO]: Scanning folders...
+[01:17:22] [Server thread/INFO]: Total conversion count is 0
+[01:17:23] [Server thread/INFO]: Preparing start region for level 0
+[01:17:24] [Server thread/INFO]: Preparing spawn area: 8%
+[01:17:25] [Server thread/INFO]: Preparing spawn area: 21%
+[01:17:26] [Server thread/INFO]: Preparing spawn area: 40%
+[01:17:27] [Server thread/INFO]: Preparing spawn area: 62%
+[01:17:28] [Server thread/INFO]: Preparing spawn area: 83%
+[01:17:29] [Server thread/INFO]: Changing view distance to 12, from 10
+[01:17:29] [Server thread/INFO]: Player865[local:E:418cfab4] logged in with entity id 199 at (158.5, 70.0, 265.5)
+[01:17:29] [Server thread/INFO]: Player865 joined the game
+[01:17:32] [Client thread/INFO]: Warning: Clientside chunk ticking took 102 ms
+[01:17:33] [Server thread/INFO]: Player865 has just earned the achievement [Taking Inventory]
+[01:17:33] [Client thread/INFO]: [CHAT] Player865 has just earned the achievement [Taking Inventory]
+[01:17:36] [Client thread/INFO]: Warning: Clientside chunk ticking took 106 ms
+[01:17:36] [Client thread/INFO]: Warning: Clientside chunk ticking took 114 ms
+[01:19:45] [Client thread/INFO]: Warning: Clientside chunk ticking took 111 ms
+[01:23:43] [Client thread/INFO]: [CHAT] Saved screenshot as 2015-10-15_01.23.43.png
+[01:24:34] [Server thread/INFO]: Saving and pausing game...
+[01:24:34] [Server thread/INFO]: Saving chunks for level 'worldGenTest2'/Overworld
+[01:24:34] [Server thread/INFO]: Saving chunks for level 'worldGenTest2'/Nether
+[01:24:34] [Server thread/INFO]: Saving chunks for level 'worldGenTest2'/The End
+[01:24:35] [Server thread/INFO]: Stopping server
+[01:24:35] [Server thread/INFO]: Saving players
+[01:24:35] [Server thread/INFO]: Saving worlds
+[01:24:35] [Server thread/INFO]: Saving chunks for level 'worldGenTest2'/Overworld
+[01:24:35] [Server thread/INFO]: Saving chunks for level 'worldGenTest2'/Nether
+[01:24:35] [Server thread/INFO]: Saving chunks for level 'worldGenTest2'/The End
+[01:29:03] [Client thread/INFO]: Stopping!
