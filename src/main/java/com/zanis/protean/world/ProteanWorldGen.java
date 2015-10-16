@@ -29,7 +29,7 @@ public class ProteanWorldGen implements IWorldGenerator {
     private WorldGenerator gen_protean_ore;
 
     public ProteanWorldGen() {
-        this.gen_protean_ore = new WorldGenMinable(ModBlocks.oreProtean, 10);
+        this.gen_protean_ore = new WorldGenMinable(ModBlocks.oreProtean, 6);
     }
 
     private void runGenerator(WorldGenerator generator, World world, Random rand, int chunk_X, int chunk_Z, int chancesToSpawn, int minHeight, int maxHeight) {
